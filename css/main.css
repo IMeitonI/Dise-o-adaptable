@@ -1,6 +1,6 @@
 body{
 	/*cuidado con los nombres de las carpetas y las imagenes*/
-	background-image: url(../imagenes/fondo_sitio.jpg);
+	background-image: url(../img/fondo_sitio.jpg);
 	font-family: sans-serif;
 	text-align: center;
 }
@@ -11,15 +11,21 @@ body{
 	border-radius: 15px;
 	border: 3px solid white;
 }
-#btn_ingresar,#btn_confirmar{
+#btn_ingresar,#btn_confirmar,#btn_siguiente,#btn_no,#btn_aceptar{
 	margin-top: 20px;
 	background-color: #2d476f;
+}
+#btn_si{
+        background-color: #7fd839;
 }
 #btn_sos{
 	margin-top: 30px;
 	background-color: #a40f0f;
 	font-size: 32px;
 	height: 100px;
+}
+#btn_mas_recomendaciones{
+        background-color: #3cb6b6;
 }
 #logo_cruz_roja{
 	margin-top: 20px;
